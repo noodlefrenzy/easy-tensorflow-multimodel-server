@@ -1,0 +1,13 @@
+Pillow
+Flask
+Werkzeug
+h5py
+ipykernel
+lxml
+jupyter
+matplotlib
+numpy
+pandas
+scipy
+sklearn
+tensorflow-gpu
