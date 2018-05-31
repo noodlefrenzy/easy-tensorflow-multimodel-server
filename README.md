@@ -47,4 +47,4 @@ It should start up on port `PORT` (default: 5000) and begin responding to reques
         "bounding_box": [0.2, 0.2, 0.8, 0.8]
     }]
 
-The `bounding_box` is in normalized (`[0.0, 1.0]`) coordinates in `[x1, y1, x2, y2]` format. If `DEBUG` is true, during evaluation we will dump all detections and their confidences to stdout. We also dump evaluation times to stdout regardless of the debug setting.
+The `bounding_box` is in normalized (`[0.0, 1.0]`) coordinates in `[ymin, xmin, ymax, xmax]` format. If `DEBUG` is true, during evaluation we will dump all detections and their confidences to stdout. We also dump evaluation times to stdout regardless of the debug setting.
